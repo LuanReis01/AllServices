@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.navbar a {
+    margin: 0px 10px;
+    color: rgb(44, 43, 43);
+}
+
+.logo {
+text-decoration: none;
+font-size: 2rem;
+color: #111;
+}
