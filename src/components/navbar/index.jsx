@@ -2,20 +2,18 @@ import React from "react";
 import {Link} from "react-router-dom"
 
 import "./styles.css";
+
 export default function Navbar () {
    return (
-
-        <nav className="navbar">
+       <nav className="navbar">
         <div>
-        
-            <Link className="logo" to= "/">
+         <Link className="logo" to= "/">
         <h3>All Services</h3>
         </Link>
         </div>
 
         <div>
-           
-            <Link className="nav-link" to="/">
+           <Link className="nav-link" to="/">
                 Home
             </Link>
             <Link className="nav-link" to="/post">

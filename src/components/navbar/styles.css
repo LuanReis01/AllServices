@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 10px 0px;
+   
 }
 
 .navbar a {
@@ -14,4 +14,5 @@
 text-decoration: none;
 font-size: 2rem;
 color: #111;
+
 }
