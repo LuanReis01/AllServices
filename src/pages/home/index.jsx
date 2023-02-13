@@ -1,11 +1,9 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import FeaturedPost from "../../components/featured-post";
 
 import PostList from "../../components/post-list";
 
-
-export default function Home () {
-const posts = [
+const mock = [
     {
         image: "https://imperiobusiness.com/wp-content/uploads/2022/07/carpinteiro.jpg",
         date: "fevereiro 8, 2023",
@@ -32,9 +30,24 @@ const posts = [
     }
 
 ]
+export default function Home () {
+
+    const [posts, setPosts] = useState (mock);
+
+    async function getPosts(){
+    const response = await fetch();
+        }
+
+    useEffect (() => {
+    getPosts();
+    }, []);
+
+
     return (
         <div>
-        <FeaturedPost />
+        {
+            posts && posts.length > 0 && <FeaturedPost post={ posts[0]}  />
+        }
 
         <PostList posts ={posts} />
         

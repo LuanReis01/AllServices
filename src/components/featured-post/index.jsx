@@ -5,19 +5,19 @@ import AuthorBadge from "../author-badge";
 
 import "./styles.css";
 
-export default function FeaturedPost () {
+export default function FeaturedPost ( { post }) {
    return (
       <div className="featured-post-container" >
    <div>
-    <img className="featured-post-imagem" src="https://www.institutodaconstrucao.com.br/wp-content/uploads/2022/02/background_pintor_interno-e1644333101638.jpg" alt="" />
+    <img className="featured-post-imagem" src= "https://www.institutodaconstrucao.com.br/wp-content/uploads/2022/02/background_pintor_interno-e1644333101638.jpg" alt="" />
       </div>
 
       <div>
-      <p className="featured-post-date">fevereiro 10, 2023</p>
+      <p className="featured-post-date">janeiro 27, 2022</p>
 
-      <h2 className="featured-post-title">J.N. Serviços de Pintura.</h2>
+      <h2 className="featured-post-title"> José Nogueira Pintor </h2>
 
-       <p className="featured-post-description ">Pintor com 12 anos de experiência em Portugal, pinturas em paredes, muros e tetos, qualidade garantida nos serviços com excelência experiência comprovada em apartamentos e vivendas.Sou bom profissional e responsável. Atuo nas zonas de Coimbra, Ançã, Condeixa a Nova. Disponibilidade imediata, faça já o seu orçamento.</p>
+       <p className="featured-post-description"> Pintor com 12 anos de experiência em Portugal, pinturas em paredes, muros e tetos qualidade garantida nos serviços com excelência experiência comprovada em apartamentos e vivendas. </p>
       
      
 <AuthorBadge />

@@ -10,7 +10,7 @@ export default function PostList ({ posts }) {
         
         {posts && 
         posts.map((post) => {
-                return <Post post={post} />;
+                return <Post post ={post} />;
         })}
         </div>
     );
