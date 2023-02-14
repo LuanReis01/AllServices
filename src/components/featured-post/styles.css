@@ -1,8 +1,11 @@
 .featured-post-container {
 display: flex;
 justify-content: space-between;
-color: #1a1b1d;
+color: #151618;
 margin-top: 80px;
+background-size: cover;
+flex-wrap: wrap;
+
 }
 
 

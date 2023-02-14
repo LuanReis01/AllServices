@@ -1,12 +1,24 @@
-.author-badge-container {
+
+
+@media (min-width: 540px) {
+    .author-badge-container {
+        display: flex;
+        margin-top: 50px;
+    }}
+
+
+
+
+/* .author-badge-container {
     display: flex;
     margin-top: 50px;
-}
+} */
 
+@media (min-width: 540px) {
 .author-badge-image {
     width: 70px;
     height: 70px;
     border-radius: 70%;
     margin-right: 15px;
     
-}
+}}

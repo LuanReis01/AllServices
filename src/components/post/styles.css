@@ -3,6 +3,8 @@
     flex-direction: column;
     color: #1a1b1d;
     margin-top: 80px;
+    background-color: beige;
+
     }
     
     
@@ -12,7 +14,7 @@
     }
     
     .post-imagem {
-      width: 40vw;
+      width: 35vw;
       height: 20vw;
       border-radius: 6px;
       object-fit: cover; 

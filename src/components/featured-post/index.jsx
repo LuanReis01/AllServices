@@ -5,9 +5,12 @@ import AuthorBadge from "../author-badge";
 
 import "./styles.css";
 
+
 export default function FeaturedPost ( { post }) {
-   return (
-      <div className="featured-post-container" >
+ 
+  return (
+
+   <div className="featured-post-container" >
    <div>
     <img className="featured-post-imagem" src= "https://www.institutodaconstrucao.com.br/wp-content/uploads/2022/02/background_pintor_interno-e1644333101638.jpg" alt="" />
       </div>

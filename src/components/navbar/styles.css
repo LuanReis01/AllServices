@@ -1,19 +1,38 @@
-.navbar {
+/* .navbar {
     display: flex;
     width: 100%;
     justify-content: space-between;
    
+} */
+
+@media (min-width: 576px) {
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
+}
+
+@media (min-width: 576px) {
 .navbar a {
     margin: 0px 10px;
     color: rgb(44, 43, 43);
-}
+    justify-content: space-between;
+} }   
 
-.logo {
+
+
+/* .logo {
 text-decoration: none;
 font-size: 2rem;
 color: #111;
+} */
 
-
+@media (min-width: 576px) {
+.logo {
+        text-decoration: none;
+        font-size: 2rem;
+        color: #111;
+        } 
 }
