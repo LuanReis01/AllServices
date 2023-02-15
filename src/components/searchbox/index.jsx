@@ -1,10 +1,21 @@
 import React from "react";
+import { Form } from "react-router-dom";
 
 import "./styles.css"
 
 export default function SearchBox () {
-    return (
-<div className="search-box">
-<input type="text"  placeholder="O que procuras?" aria-labelledby="undefined-label" ></input>
-</div>
-    );}
+  
+  return (
+     
+    <form>
+      <label className="label">
+       Todos os serviços em um só lugar.
+      </label>
+      <div className="Busca">
+        <input type="text" className="txtBusca" placeholder="O que procuras?" />
+        <button className="btnBusca" type="submit"> Pesquisar </button>
+      </div>
+    </form>
+  
+    );
+}
