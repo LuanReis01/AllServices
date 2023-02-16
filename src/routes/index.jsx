@@ -2,6 +2,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom"
 
 import Home from "../pages/home"
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import PostList from "../components/post-list";
 import Login from "../pages/login";
 
@@ -15,6 +16,7 @@ export default function AplicationRoutes () {
         <Route path="/login" element={<Login />} />
 
         </Routes>
+        <Footer />
         </BrowserRouter>
     )
 } 

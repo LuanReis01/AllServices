@@ -14,21 +14,20 @@ export default function Navbar () {
         </Link>
         </div>
 
-        <div>
-           <Link className="nav-link" to="/">
-                Home
-            </Link>
-            <Link className="nav-link" to="/suporte">
-                Suporte
-            </Link>
-            <Link className="nav-link" to="/contact">
-                Anuncie aqui
-            </Link>
-            <Link className="nav-link" to="/login">
-                Login
-            </Link>
-    
-        </div>    
+        <ul className="list"> 
+            <li className="item">
+           <Link  to="/">Home</Link>
+           </li>
+           <li className="item" >
+            <Link  to="/suporte">Suporte</Link>
+            </li>
+            <li className="item" >
+            <Link  to="/contact">Anuncie aqui</Link>
+            </li>
+            <li className="item" >
+            <Link  to="/login">Login</Link>
+            </li>
+            </ul>    
          
         </nav>
 
