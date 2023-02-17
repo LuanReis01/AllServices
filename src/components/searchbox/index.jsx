@@ -7,13 +7,13 @@ export default function SearchBox () {
   
   return (
      
-    <form>
+    <form className="search-box">
       <label className="label">
        Todos os serviços em um só lugar.
       </label>
       <div className="Busca">
         <input type="text" className="txtBusca" placeholder="O que procuras?" />
-        <button className="btnBusca" type="submit"> Pesquisar </button>
+        <button className="btn-search" type="submit"> Pesquisar </button>
       </div>
     </form>
   

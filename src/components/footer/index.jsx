@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 
 import "./styles.css";
 
@@ -9,13 +10,13 @@ return (
     <footer className="footer" >
         <ul className="social-list " >
             <li>
-               Facebook
+            <NavLink> Facebook</NavLink>
             </li>
             <li>
-                Instagram
+            <NavLink>  Instagram </NavLink>
             </li>
             <li>
-                Linkedin 
+            <NavLink> Linkedin </NavLink>
             </li>
         </ul>
         <p className="copy-right" > <span> AllServices </span> &copy; 2023 </p>

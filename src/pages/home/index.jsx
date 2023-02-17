@@ -4,6 +4,8 @@ import SearchBox from "../../components/searchbox";
 
 import PostList from "../../components/post-list";
 
+import "./styles.css";
+
 const mock = [
     {
         image: "https://imperiobusiness.com/wp-content/uploads/2022/07/carpinteiro.jpg",
@@ -46,6 +48,7 @@ export default function Home () {
 
 
     return (
+        <main className="main">
         <div>
             <SearchBox />
         {
@@ -55,6 +58,7 @@ export default function Home () {
         <PostList posts ={posts} />
         
         </div>
+        </main>
     );
-
+    
 }

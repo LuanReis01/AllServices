@@ -13,11 +13,24 @@
     list-style-type: none;
 }
 
+.social-list li a {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
 .social-list li {
      margin: 0 1em;
 }
 
 .social-list li:hover {
+    margin: 0 1em;
+    color: #ffbb33;
+}
+
+.social-list li a:hover {
     margin: 0 1em;
     color: #ffbb33;
 }

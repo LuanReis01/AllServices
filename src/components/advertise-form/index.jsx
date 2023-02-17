@@ -1,10 +1,11 @@
 import React from "react";
 import Input from "../form-input/input";
 import Select from "../select";
+import SubmitButton from "../submit-button";
 
 import "./styles.css";
 
-export default function AdvertiseForm () {
+export default function AdvertiseForm ({btnText}) {
 
 return(
     <form>
@@ -32,10 +33,8 @@ return(
         />
 
         <Select name="category-id" text="Selecione a categoria" />
-
-        <div>
-        <input type="submit" value="Criar Anúncio" />
-        </div>
+        <SubmitButton text={btnText} />
+        
     </form>
     )
 }

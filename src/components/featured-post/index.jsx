@@ -25,11 +25,7 @@ export default function FeaturedPost ( { post }) {
      
 <AuthorBadge />
 
-<Link to="#">
-<form className="send-message" onsubmit="console.log('You clicked submit.'); return false">
-  <button type="submit">Enviar Mensagem</button>
-</form>
-</Link>
+
 </div>
 
 </div>
