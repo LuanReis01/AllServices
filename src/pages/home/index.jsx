@@ -9,7 +9,8 @@ const mock = [
         image: "https://imperiobusiness.com/wp-content/uploads/2022/07/carpinteiro.jpg",
         date: "fevereiro 8, 2023",
         title: "Pedro Duarte Carpinteiro",
-        description: "Com mais de 40 anos de experiência, executo todo o tipo de trabalhos de carpintaria, flutuantes, escadas, portas exteriores e interiores, escadas, móveis de cozinha, roupeiros, móveis de quarto de banho, telheiros, mesas, cadeiras, estantes, roda-pés e painéis. Região do Grande Porto.",
+        description: "Com mais de 40 anos de experiência. Colocação e Reparação de Portas e Aduelas, Fechaduras, Puxadores, Janelas, Soalho Flutuante ou Deck, Pladur, Rodapés e Tectos falsos.  Qualidade, Respeito de Prazos e Preço Justo Garantidos."
+        
     },
     {
         image: "https://www.creditooudebito.com.br/y/3564/pedreiro.jpg",

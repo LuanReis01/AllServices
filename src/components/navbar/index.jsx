@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 import "./styles.css";
 
@@ -9,23 +9,24 @@ export default function Navbar () {
    return (
        <nav className="navbar">
         <div>
-         <Link className="logo" to= "/">
+         <NavLink className="logo" to= "/">
         <h3>All Services</h3>
-        </Link>
+        </NavLink>
         </div>
-
+         
+         
         <ul className="list"> 
             <li className="item">
-           <Link  to="/">Home</Link>
+           <NavLink  to="/">Home</NavLink>
            </li>
            <li className="item" >
-            <Link  to="/suporte">Suporte</Link>
+            <NavLink  to="/suporte">Suporte</NavLink>
             </li>
             <li className="item" >
-            <Link  to="/contact">Anuncie aqui</Link>
+            <NavLink  to="/advertise ">Anuncie aqui</NavLink>
             </li>
             <li className="item" >
-            <Link  to="/login">Login</Link>
+            <NavLink  to="/login">Login</NavLink>
             </li>
             </ul>    
          
