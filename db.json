@@ -1,0 +1,30 @@
+{
+  "advertise": [],
+  "categories": [
+    {
+      "id": 1,
+      "name":"Pintor"
+    },
+    {
+      "id": 2,
+      "name":"Pedreiro"
+    },
+    {
+      "id": 3,
+      "name":"Eletricista"
+    },
+    {
+      "id": 4,
+      "name":"Carpinteiro"
+    },
+    {
+      "id": 5,
+      "name":"Encanador"
+    },
+    {
+      "id": 6,
+      "name":"Outro"
+    }
+  ]
+}
+
