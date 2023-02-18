@@ -21,6 +21,7 @@ export default function AdvertiseForm ({btnText}) {
         .then((data) => {
             setCategories(data)
         })
+        .catch((err) => console.log(err))
         
     },[])
 
