@@ -2,14 +2,12 @@
 
 
 .featured-post-container {
-display: flex;
+ display: flex;
 justify-content: space-between;
 color: #151618;
 margin-top: 80px;
 background-size: cover;
 flex-wrap: wrap;
-
-background-color: #9b6b6b;
 
 }
 
@@ -52,19 +50,19 @@ background-color: #9b6b6b;
 
 
 
-.featured-post-date {
+.featured-post-category {
     font-size: 0.8rem;
     color: #4d4f53;
 }
 
 @media only screen and (max-width: 1050px){
-    .featured-post-date {
+    .featured-post-category {
         font-size: 8px;
 
     }
 }
 @media only screen and (max-width: 630px){
-    .featured-post-date {
+    .featured-post-category {
         font-size: 6px;
 
     }

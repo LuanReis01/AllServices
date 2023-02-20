@@ -10,7 +10,7 @@ return(
     <input
      type={type}
      name={name}
-     file={file}
+     file={file} 
      id={name}
      placeholder={placeholder}
      onChange={handleOnChange}

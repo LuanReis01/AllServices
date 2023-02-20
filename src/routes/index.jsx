@@ -7,11 +7,14 @@ import PostList from "../components/post-list";
 import Login from "../pages/login";
 import Advertise from "../pages/advertise";
 
+import Container from "../components/container";
+
 
 export default function AplicationRoutes () {
   return(
         <BrowserRouter>
         <Navbar />
+        <Container customClass="min-height">
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/suporte" element={<h1>Post</h1>} />
@@ -19,6 +22,7 @@ export default function AplicationRoutes () {
         <Route path="/advertise" element={<Advertise />} />
 
         </Routes>
+        </Container>
         <Footer />
         </BrowserRouter>
     )

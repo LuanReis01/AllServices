@@ -16,12 +16,11 @@ export default function FeaturedPost ( { post }) {
       </div>
 
       <div>
-      <p className="featured-post-date">janeiro 27, 2022</p>
-
       <h2 className="featured-post-title"> José Nogueira Pintor </h2>
 
        <p className="featured-post-description"> Pintor com 12 anos de experiência em Portugal, pinturas em paredes, muros e tetos qualidade garantida nos serviços com excelência experiência comprovada em apartamentos e vivendas. </p>
       
+       <p className="featured-post-category">Pintor</p>
      
 <AuthorBadge />
 

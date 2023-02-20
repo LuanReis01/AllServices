@@ -1,10 +1,15 @@
 import React, {useState, useEffect} from "react";
 import FeaturedPost from "../../components/featured-post";
 import SearchBox from "../../components/searchbox";
-
+import Container from "../../components/container";
+import AdversiteCard from "../../components/adversite-card";
 import PostList from "../../components/post-list";
 
+
+
 import "./styles.css";
+import Message from "../../components/message";
+
 
 const mock = [
     {
@@ -36,26 +41,71 @@ const mock = [
 ]
 export default function Home () {
 
+    const [projects, setProjects] = useState([])    
+
     const [posts, setPosts] = useState (mock);
 
    async function getPosts(){
     /* const response = await fetch(); */
     }  
 
-    useEffect (() => {
+    /* useEffect (() => {
     getPosts();
-    }, []);
+    }, []); */
+
+    useEffect(() => {
+        fetch('http://localhost:5000/advertise', {
+            method: 'GET',
+            headers: {
+              'Content-type': 'application/json',
+            },
+        }).then(resp => resp.json()) 
+          .then((data) => {
+            console.log(data)
+            setProjects(data)
+          })
+          .catch((err) => console.log(err))
+        
+          
+          
+    }, [])
 
 
     return (
         <main className="main">
         <div>
-            <SearchBox />
-        {
-            posts && posts.length > 0 && <FeaturedPost post={ posts[0]}  />
-        }
+             <SearchBox />
+              
+              <FeaturedPost />
 
-        <PostList posts ={posts} />
+        {/*       {
+            posts && posts.length > 0 && <FeaturedPost post={ posts[0]}  />
+        }  */}
+        
+         {/* <div>
+            <h1>Anúncios</h1>
+        </div> */}
+            {/* <Message msg="Alguma mensagem"/> */}
+         
+        
+         <Container customClass="start" >
+          {projects.length > 0 &&
+          projects.map((project) => (
+            <AdversiteCard 
+            
+            id={project.id}
+           /*  file={project.image} */
+            name={project.name}
+            description={project.description}
+            category={project?.category?.name} 
+            key={project.id}
+            
+           
+             />
+          ))}
+         </Container>
+
+       {/*  <PostList posts ={posts} /> */}
         
         </div>
         </main>
