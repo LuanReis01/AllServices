@@ -4,11 +4,11 @@ import SearchBox from "../../components/searchbox";
 import Container from "../../components/container";
 import AdversiteCard from "../../components/adversite-card";
 import PostList from "../../components/post-list";
-
+import AuthorBadge from "../../components/author-badge"
 
 
 import "./styles.css";
-import Message from "../../components/message";
+
 
 
 const mock = [
@@ -77,6 +77,8 @@ export default function Home () {
              <SearchBox />
               
               <FeaturedPost />
+
+              
 
         {/*       {
             posts && posts.length > 0 && <FeaturedPost post={ posts[0]}  />

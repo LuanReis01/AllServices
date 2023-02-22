@@ -22,8 +22,8 @@ export default function FeaturedPost ( { post }) {
       
        <p className="featured-post-category">Pintor</p>
      
-<AuthorBadge />
 
+       <AuthorBadge />
 
 </div>
 

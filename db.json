@@ -89,6 +89,17 @@
       "cost": 0,
       "services": [],
       "id": 8
+    },
+    {
+      "name": "teste 9",
+      "description": "sdsd dss ds dsd s dsd sd s dsdsdsds ds dsd sds ds ds ds d sdsdsdsdsds d s ds ds s ds ds dsdsds sd sdsd sd sdsdsd sd sdsds d",
+      "category": {
+        "id": "5",
+        "name": "Encanador"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 9
     }
   ],
   "categories": [

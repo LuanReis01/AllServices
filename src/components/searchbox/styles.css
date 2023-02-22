@@ -5,12 +5,19 @@
   margin-left: 2em;
   }
   
+
   .search-box label {
   margin-top: 2em;
   margin-bottom: 2em;
   font-weight: bold;
   }
-  
+
+  @media only screen and (max-width: 720px){
+    .search-box label{
+      font-size: .9rem;
+    }
+  }
+
   .search-box input {
       padding: 0.7em 2em;
       border-radius: 0;
@@ -41,39 +48,3 @@
 
 
 
-/* @media (min-width: 576px) {
-.label{
-font-size:18px;
-
-}
-
-
-
-.Busca{
-    background-color:#E0EEEE;
-    border:solid 2px #5F9EA0;
-    border-radius:10px;
-    width:300px;
-    height:32px;
-  }
-
-  .txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:15px;
-    border:none;
-    height:32px;
-    width:191px;
-  }
-
-  .btnBusca{
-    border:none;
-    float:left;
-    height:32px;
-    border-radius:0 7px 7px 0;
-    width:102px;
-    font-weight:bold;
-    background:#75c7ca;
-  }
-} */

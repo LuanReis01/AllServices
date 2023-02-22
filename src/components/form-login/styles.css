@@ -1,15 +1,59 @@
-
-/* .form {
-    display: flex;
-    width: 100%;
-    max-width: 570px;
-
+.form-login {
+    width: 80%;
+     display: flex;
+     width: 100%; 
+     max-width: 600px; 
      margin: 10px auto;
-     text-align: center;
-}  */
+     flex-wrap: wrap;
+     justify-content: center; 
+     padding: 2em;
 
-/* .itens-login {
-    width: 50%;
-    height: 30px;
-    margin: 8px 0;
-} */
+    }
+    
+    .itens-login {
+     display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 2em; 
+     
+    
+    }
+
+    .itens-login input {
+        width: 48%;
+        height: 30px;
+        margin: 8px 0px;
+    }
+     
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        
+         
+        
+    }
+
+   
+
+    .login button {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none; 
+        
+    }
+        
+    .login button:hover {
+            color: #fb3;
+    }
+
+  
