@@ -100,6 +100,17 @@
       "cost": 0,
       "services": [],
       "id": 9
+    },
+    {
+      "name": "TESTE 10",
+      "description": "ASAS SA ASASASAS ASASAS A SASAS A SASAS ASASAS ASASAS AS ASA SA SASAS AS AS AS ASASAS ASASAS ASASAS AS ASASAS ",
+      "category": {
+        "id": "3",
+        "name": "Eletricista"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 10
     }
   ],
   "categories": [

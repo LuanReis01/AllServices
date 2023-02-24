@@ -1,17 +1,16 @@
-.form-login {
+    .form-login {
     width: 80%;
-     display: flex;
-     width: 100%; 
-     max-width: 600px; 
-     margin: 10px auto;
-     flex-wrap: wrap;
-     justify-content: center; 
-     padding: 2em;
-
+    display: flex;
+    width: 100%; 
+     max-width: 600px;  
+    margin: 10px auto; 
+     flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 2em;
     }
     
     .itens-login {
-     display: flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -20,23 +19,64 @@
     
     }
 
-    .itens-login input {
+    .itens-login input{
         width: 48%;
         height: 30px;
         margin: 8px 0px;
     }
      
-    .login{
+    .form-login .itens-login button{
         display: flex;
         flex-direction: column;
-        width: 40%;
-        align-items: center;
-        
-         
-        
+        width: 50%;
+        background-color: #222;
+        color: #fff;
+        padding: 0.5em 1em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        transition: 0.5s;
+        cursor: pointer;
+        border: none;  
     }
 
+    .form-login .itens-login button:hover {
+        color: #fb3;    
+    } 
+
+    .login{
+        display: flex;
+        width: 45%;
+        align-items: center;
+       
+    }
+    
+    .auto-login{
+        display: flex;
+        width: 75%;
+        align-items: center;
+       
+    }
    
+    
+
+    .auto-login button{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none; 
+                
+            
+    }
+
+    .login button:hover {
+        color: #fb3;
+    }
 
     .login button {
     display: flex;
@@ -51,8 +91,9 @@
     border: none; 
         
     }
+
         
-    .login button:hover {
+    .auto-login button:hover {
             color: #fb3;
     }
 

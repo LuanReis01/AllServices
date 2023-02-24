@@ -6,8 +6,10 @@ import Footer from "../components/footer";
 import PostList from "../components/post-list";
 import Login from "../pages/login";
 import Advertise from "../pages/advertise";
+import Messages from "../pages/messages";
 
 import Container from "../components/container";
+
 
 
 export default function AplicationRoutes () {
@@ -17,7 +19,7 @@ export default function AplicationRoutes () {
         <Container customClass="min-height">
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/suporte" element={<h1>Post</h1>} />
+        <Route path="/messages" element={<Messages />} />
         <Route path="/login" element={<Login />} />
         <Route path="/advertise" element={<Advertise />} />
 

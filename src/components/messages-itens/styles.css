@@ -1,0 +1,56 @@
+.form-messages {
+    width: 100%; 
+
+   background-color: #fb3;
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+
+.img-message{
+  display: flex;
+
+    
+    width: 40vw;
+    height: 38vw;
+    margin-top: 1em; 
+
+}
+
+.article-notice{
+    width: 48%;
+    
+}
+
+
+.btn-create {
+    background-color: #222;
+    margin-left: 4em;
+    color: #fff;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2em;
+    
+    }
+    
+    .btn-create:hover {
+        color: #fb3;
+    }
+      
+
+    .link {
+        
+        background-color: #222;
+        margin-left: 6em;
+        color: #fff;
+        padding: 0.7em 1.2em;
+        text-decoration: none;
+        transition: 0.5s;
+        cursor: pointer;
+        border: none;
+        
+        }

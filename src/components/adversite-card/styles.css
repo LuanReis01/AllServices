@@ -1,9 +1,11 @@
 .project-card {
+    
     padding: 2em; 
     border: 1px solid #7a7a7a;
     border-radius: 5px;
     width: 40%;
     margin: 1em;
+    background-color: rgb(208, 212, 216);
 
 }
 

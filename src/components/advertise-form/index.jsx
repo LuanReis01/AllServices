@@ -51,14 +51,14 @@ return(
     <form onSubmit={submit}>
            
 
-        <Input 
+        {/* <Input 
         type="file"
         text="Insira uma imagem"
         name="image"
         handleOnChange={handleChange}
         value={project.file ? +project.file: ''}
         
-        />
+        /> */}
 
         <Input 
         type="text"

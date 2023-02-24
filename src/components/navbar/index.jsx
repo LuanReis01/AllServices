@@ -20,7 +20,7 @@ export default function Navbar () {
            <NavLink  to="/">Home</NavLink>
            </li>
            <li className="item" >
-            <NavLink  to="/suporte">Suporte</NavLink>
+            <NavLink  to="/messages">Mensagens</NavLink>
             </li>
             <li className="item" >
             <NavLink  to="/advertise ">Anuncie aqui</NavLink>

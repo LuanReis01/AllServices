@@ -4,12 +4,25 @@
 width: 450px;
 margin: 0 auto;
 padding: 3em;
+margin-bottom: 10em;
+
+}
+
+@media only screen and (max-width: 1050px){
+    .new-adversite {
+    width: 300px;
+    margin: 0 auto;
+    padding: 3em;
+        
+    }
 }
 
 .new-adversite h1 {
     margin-bottom: 0.5em;
+    padding: 2em;
 }
 
 .new-adversite p {
     color: #7b7b7b;
+    
 }  
