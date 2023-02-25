@@ -1,14 +1,14 @@
-.form-messages {
-    width: 100%; 
+.form-link-itens {
+ /*    width: 100%; 
 
    background-color: #fb3;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between; */
   
 }
 
 
-.img-message{
+/* .img-message{
   display: flex;
 
     
@@ -17,14 +17,14 @@
     margin-top: 1em; 
 
 }
-
-.article-notice{
+ */
+/* .article-notice{
     width: 48%;
     
-}
+} */
 
 
-.btn-create {
+/* .btn-create {
     background-color: #222;
     margin-left: 4em;
     color: #fff;
@@ -35,14 +35,14 @@
     border: none;
     margin-bottom: 2em;
     
-    }
+    } */
     
-    .btn-create:hover {
+/*     .btn-create:hover {
         color: #fb3;
-    }
+    } */
       
 
-    .link {
+  /*   .link {
         
         background-color: #222;
         margin-left: 6em;
@@ -53,4 +53,4 @@
         cursor: pointer;
         border: none;
         
-        }
+        } */

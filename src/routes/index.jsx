@@ -16,7 +16,10 @@ export default function AplicationRoutes () {
   return(
         <BrowserRouter>
         <Navbar />
-        <Container customClass="min-height">
+        
+          
+        
+        <Container customClass="min-height" >
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/messages" element={<Messages />} />
@@ -25,6 +28,7 @@ export default function AplicationRoutes () {
 
         </Routes>
         </Container>
+        
         <Footer />
         </BrowserRouter>
     )

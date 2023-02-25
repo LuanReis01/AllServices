@@ -1,15 +1,50 @@
-
-
+.featured-post-main{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+}
 
 .featured-post-container {
- display: flex;
-justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+/* .featured-post-container {
+  display: flex;
+justify-content: space-between;
+align-items: center;
 color: #151618;
 margin-top: 80px;
-background-size: cover;
-flex-wrap: wrap;
+margin-right: 2em;
+background-color: #4d4f53;
+width: 100%;  
 
-}
+display: flex; 
+
+justify-content: space-between;
+align-items: center;
+margin: auto auto; 
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 90%;
+    height: 30%;
+    margin: 1em; 
+
+
+} */
 
 
 
@@ -19,23 +54,16 @@ flex-wrap: wrap;
 }
 
 .featured-post-imagem {
-margin-top: 20px;
-  width: 38vw;
-  height: 25vw;
+  /* margin-top: 20px;
+  margin-right: 1em; */
+  width: 35vw;
+  height: 22vw;
   border-radius: 6px;
   object-fit: cover; 
+  
     
-}
-
-@media only screen and (max-width: 620px){
-    .featured-post-imagem {
-        width: 45vw;
-        height: 28vw;
-        border-radius: 6px;
-        object-fit: cover; 
-
-    }
 } 
+
 
 
 
@@ -45,9 +73,9 @@ margin-top: 20px;
 .featured-post-category {
     font-size: 0.8rem;
     color: #4d4f53;
-}
+} 
 
-@media only screen and (max-width: 1050px){
+/* @media only screen and (max-width: 1050px){
     .featured-post-category {
         font-size: .7rem;
 
@@ -58,13 +86,13 @@ margin-top: 20px;
         font-size: .6rem;
 
     }
-}
+} */
 
 .featured-post-title {
     margin-top: 20px;
-}
+} 
 
- @media only screen and (max-width: 770px){
+  @media only screen and (max-width: 1050px){
     .featured-post-title {
         font-size: 1rem;
 
@@ -75,16 +103,26 @@ margin-top: 20px;
         font-size: .9rem;
 
     }
-} 
+}  
 
-.featured-post-description {
+@media only screen and (max-width: 465px){
+    .featured-post-title {
+        font-size: .6rem;
+
+    }
+}  
+
+ .featured-post-description {
+
     margin-top: 20px;
     color: #222830;
-    font-size: 1.3rem;
-}
+    font-size: 1rem;
+    
+} 
 
-@media only screen and (max-width: 1050px){
+ @media only screen and (max-width: 1050px){
     .featured-post-description {
+        margin-top: 10px;
         font-size: .8rem;
 
     }
@@ -92,11 +130,15 @@ margin-top: 20px;
 
 @media only screen and (max-width: 630px){
     .featured-post-description {
-        font-size: .6rem;
+        margin-top: 4px;
+        font-size: .5rem;
 
     }
 }
 
+
+
+ 
 
 
 
@@ -104,4 +146,4 @@ margin-top: 20px;
 .send-message {
     margin-top: 30px;
 
-}
+} 

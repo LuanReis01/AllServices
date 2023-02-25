@@ -1,8 +1,15 @@
 
-body {
+ body {
   
   font-family: 'Roboto', cursive;
-  padding: 10px 40px; 
-  padding-bottom: 40px; 
+  padding: 10px 10px; 
+  padding-bottom: 40px;  
   background-color: rgb(190, 190, 183);
+} 
+
+@media only screen and (max-width: 540px){
+  body {
+    padding: 0 0; 
+    
+  }
 }

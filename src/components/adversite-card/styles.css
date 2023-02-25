@@ -1,48 +1,50 @@
 .project-card {
-    
+   
+    justify-content: center;
+    align-items: center;
     padding: 2em; 
     border: 1px solid #7a7a7a;
     border-radius: 5px;
     width: 40%;
-    margin: 1em;
+    margin: 1em; 
     background-color: rgb(208, 212, 216);
 
 }
 
- @media only screen and (max-width: 1242px){
+ @media only screen and (max-width: 1410px){
     .project-card {
         width: 35%;
-
+        
 
 }} 
 
  @media only screen and (max-width: 910px){
     .project-card {
         width: 32%;
-
-
-}} 
-
-@media only screen and (max-width: 640px){
-    .project-card {
-        width: 100%;
-
+        
 
 }} 
 
-/* @media only screen and (max-width: 666px){
+@media only screen and (max-width: 700px){
     .project-card {
-        width: 100%;
+        width: 60%;
+        
+
+}} 
+
+ @media only screen and (max-width: 480px){
+    .project-card {
+        width: 40%;
 
 
-}}  */
+}}  
 
 .project-card h3 {
     background-color: #969292;
     color: #000000;
     padding: .4em;
     margin-bottom: 1.3em;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 760px){
@@ -51,6 +53,8 @@
 }}
 
 .project-card p {
+    display: flex;
+    align-items: center;
     color: #4b4848;
     margin-bottom: 1em;
 }

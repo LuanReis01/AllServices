@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -21,11 +21,11 @@ export default function Post ({ post }) {
        
     
 
-       <Link to="#">
+       <NavLink to="#">
 <form className="send-message" onsubmit="console.log('You clicked submit.'); return false">
   <button type="submit">Enviar Mensagem</button>
 </form>
-</Link>
+</NavLink>
      </div>
 
 </div>
