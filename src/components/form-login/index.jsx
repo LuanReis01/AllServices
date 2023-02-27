@@ -12,9 +12,9 @@ export default function FormLogin () {
      
     <form className="form-login" >
         <label htmlFor="#"></label>
-     <div className="login" >
-    <button  type="submit">Criar Conta</button>
-    <button  type="submit">Entrar</button>
+     <div className="itens ">
+    <button className="button-itens" type="submit">Criar Conta</button>
+    <button className="button-itens" type="submit">Entrar</button>
      </div>
      
     <div className="itens-login" >
@@ -24,9 +24,8 @@ export default function FormLogin () {
     <input type="text" placeholder="Password"/>
     <input type="text" placeholder="Repetir Password"/>
     <button type="submit" >Enviar</button>
-    <NavLink> Esqueceste-te da password?</NavLink>
-    <div className="auto-login" >
-    </div>
+    <NavLink className="forgot-password" to="#" > Esqueceste-te da password?</NavLink>
+    
      </div>
     </form>
 

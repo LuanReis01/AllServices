@@ -37,6 +37,7 @@ export default function Advertise() {
   <div className="new-adversite" >
     <h1> Criar Anúncio</h1>
     <p>Crie o anúncio com o seu serviço</p>
+    <p>Quanto mais detalhado, melhor!</p>
      <AdvertiseForm handleSubmit={createPost}  btnText="Criar Anúncio" />
   </div>
    </main>  

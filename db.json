@@ -1,138 +1,81 @@
 {
   "advertise": [
     {
-      "name": "teste",
-      "description": "aaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaaaa aaaaaaa",
+      "name": "José A. Serviços Pedreiro",
+      "description": "Faço todo tipo de reparações de pedreiro e de trolha. Pequenas construções. Colocação de todo o tipo de cerâmicas, reparações em telhados, todos os tipo de pinturas, isolamento capoto e etc. Disponível todos os dias da semana. Entre em contato.",
       "category": {
-        "id": "1",
-        "name": "Pintor"
+        "id": "2",
+        "name": "Pedreiro"
       },
       "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "name": "teste 2",
-      "description": "bbbbbbbbbbbbb bbbbbbbbb bbbbbbbbbb bbbbbbbb bbbbbbbb bbbbbbbbbb bbbbbbbbb bbbbbbbbb bbbbbbbbb bbbbb",
+      "name": "Eletricistas Credenciados",
       "category": {
         "id": "3",
         "name": "Eletricista"
       },
+      "description": "Técnico Responsável. ELETRICIDADE GERAL - Detecção e reparação de avarias. Contador- alteração da localização com Termo de responsabilidade E-REDES. Contador- trifásico para monofásico (com ou sem projeto).",
       "cost": 0,
       "services": [],
       "id": 2
     },
     {
-      "name": "teste 3",
-      "description": "cccccccccc ccccccccccc cccccccccccc ccccccccccc ccccccccccc ccccccccc cccccccccccc ccccccccccc ccccccccccccc ccccccccccc cccccccccc ccccccccccccc cccccccc",
+      "name": "Pedro Duarte Carpinteiro",
+      "category": {
+        "id": "4",
+        "name": "Carpinteiro"
+      },
+      "description": "Com mais de 40 anos de experiência. Colocação e Reparação de Portas e Aduelas, Fechaduras, Puxadores, Janelas, Soalho Flutuante ou Deck, Pladur, Rodapés e Tectos falsos.  Qualidade, Respeito de Prazos e Preço Justo Garantidos.",
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Miguel Montador de móveis",
+      "description": "Montagem e desmontagem de móveis novos e usados. Faça já o seu orçamento. Possuo disponibilidade das segundas aos sábados. Atuo na zona de Porto. Entre em contato para mais detalhes.",
       "category": {
         "id": "6",
         "name": "Outro"
       },
       "cost": 0,
       "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste 4",
-      "description": "dddddddddd ddddddddd ddddddddd ddddddddddd dddddddddd ddddddddd ddddddd dddddddd dddddddd ddddddddd ddddddd ddddddd ddddddd",
-      "category": {
-        "id": "5",
-        "name": "Encanador"
-      },
-      "cost": 0,
-      "services": [],
       "id": 4
     },
     {
-      "name": "teste 5",
-      "description": "eeeeeeeeee eeeeeeeeeeee eeeeeeeeeeeeee eeeeeeeeeeee eeeeeeeee eeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeeee eeeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeee",
+      "name": "Mário Barbosa carpintaria e marcenaria",
+      "description": "Todo tipo de móveis e carpintaria. Cozinhas quartos salas portas chão telhados. Todo tipo de carpintaria, tenho uma equipa especializada pra tais trabalhos. Alguma questão contactar.",
       "category": {
-        "id": "3",
-        "name": "Eletricista"
+        "id": "4",
+        "name": "Carpinteiro"
       },
       "cost": 0,
       "services": [],
       "id": 5
     },
     {
-      "name": "teste 6",
-      "description": "axxxxxxxxxxxxx aaaaaaaaa xxxxxxxxxx aaaaaaaaaaa xxxxxxxxxxx aaaaaaaaaa xxxxxxxxxx xxxxxxxxxx xxxxxx",
+      "name": "Carlos Nuno Pintor Profissional",
       "category": {
-        "id": "4",
-        "name": "Carpinteiro"
+        "id": "1",
+        "name": "Pintor"
       },
+      "description": "Pintamos: Muros - Casas, Apartamentos, Escritórios, Armazéns. Trabalhamos com tintas laváveis de alta qualidade ou de sua preferência. ",
       "cost": 0,
       "services": [],
       "id": 6
     },
     {
-      "image": "C:\\fakepath\\img2.jpg",
-      "name": "teste 7",
-      "description": "aaaaaaaa sdssssssssss ssssssssss sssssssss sssssss",
+      "name": "Ricardo Martins",
+      "description": "Faço todo o tipo de trabalhos de eletricidade em toda área de espaços comerciais e habitacional juntamente com instalações de sistemas de segurança.",
       "category": {
-        "id": "4",
-        "name": "Carpinteiro"
+        "id": "3",
+        "name": "Eletricista"
       },
       "cost": 0,
       "services": [],
       "id": 7
-    },
-    {
-      "image": "C:\\fakepath\\img2.jpg",
-      "name": "teste 8",
-      "description": "aaaa aaaaa aaaaaaaaa aaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaa aaaaa",
-      "category": {
-        "id": "4",
-        "name": "Carpinteiro"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "teste 9",
-      "description": "sdsd dss ds dsd s dsd sd s dsdsdsds ds dsd sds ds ds ds d sdsdsdsdsds d s ds ds s ds ds dsdsds sd sdsd sd sdsdsd sd sdsds d",
-      "category": {
-        "id": "5",
-        "name": "Encanador"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "TESTE 10",
-      "description": "ASAS SA ASASASAS ASASAS A SASAS A SASAS ASASAS ASASAS AS ASA SA SASAS AS AS AS ASASAS ASASAS ASASAS AS ASASAS ",
-      "category": {
-        "id": "3",
-        "name": "Eletricista"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "name": "teste 11",
-      "description": "asasas haushauhsu huashuahsu huahsuahs haushuahs haushaush haushuahs huashaush haushaush huashuahsuh haushuahs haushuahs huashushau huashaush huashuash",
-      "category": {
-        "id": "3",
-        "name": "Eletricista"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "name": "teste 11",
-      "description": "asasas haushauhsu huashuahsu huahsuahs haushuahs haushaush haushuahs huashaush haushaush huashuahsuh haushuahs haushuahs huashushau huashaush huashuash",
-      "category": {
-        "id": "3",
-        "name": "Eletricista"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 12
     }
   ],
   "categories": [

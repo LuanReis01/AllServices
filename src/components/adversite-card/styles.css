@@ -34,7 +34,8 @@
 
  @media only screen and (max-width: 480px){
     .project-card {
-        width: 40%;
+        padding: .5em; 
+        width: 80%;
 
 
 }}  
@@ -52,6 +53,10 @@
         font-size: .9rem;
 }}
 
+@media only screen and (max-width: 480px){
+    .project-card h3 {
+        font-size: .8rem;
+}}
 .project-card p {
     display: flex;
     align-items: center;

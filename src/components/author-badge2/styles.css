@@ -1,7 +1,5 @@
 
-
-
-    .author-badge-container {
+.author-badge-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +10,6 @@
 .author-badge-image {
     width: 70px;
     height: 70px;
-    margin-right: 2em;
     border-radius: 70%;
     
     

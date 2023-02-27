@@ -1,100 +1,94 @@
-    .form-login {
-    width: 80%;
-    display: flex;
+   
+   .itens {
     width: 100%; 
-     max-width: 600px;  
-    margin: 10px auto; 
-     flex-wrap: wrap; 
-    justify-content: center; 
-    padding: 2em;
-    }
-    
-    .itens-login {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    padding: 2em; 
+    justify-content: center; 
+     margin-top: 2em;
      
+  }
+
+
+   .button-itens {
+  
+    background-color: #222;
+    margin-left: 2em;
+    margin-right: 2em; 
+    width: 90%;
+    color: #fff;
+    padding: 0.5em 1.4em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2em;
+    font-size: .8rem;
     
-    }
-
-    .itens-login input{
-        width: 48%;
-        height: 30px;
-        margin: 8px 0px;
-    }
-     
-    .form-login .itens-login button{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        background-color: #222;
-        color: #fff;
-        padding: 0.5em 1em;
-        margin-top: 2em;
-        margin-bottom: 2em;
-        transition: 0.5s;
-        cursor: pointer;
-        border: none;  
-    }
-
-    .form-login .itens-login button:hover {
-        color: #fb3;    
     } 
+      
 
-    .login{
-        display: flex;
-        width: 45%;
-        align-items: center;
-       
-    }
-    
-    .auto-login{
-        display: flex;
-        width: 75%;
-        align-items: center;
-       
+    @media only screen and (max-width: 630px){
+      .button-itens {
+        font-size: 0.6rem;
+        padding: 0.3em .8em;
+        margin-bottom: 1em
+        
+        
+      
+      }
     }
    
+    .itens-login {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        padding: 1em; 
+         
+        
+        }
     
 
-    .auto-login button{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    background-color: #222;
-    color: #fff;
-    padding: 0.5em 1em;
+        @media only screen and (max-width: 630px){
+            .itens-login {
+                font-size: .8rem;
+            }
+
+        }
+
+
+
+        .itens-login input{
+            width: 100%;
+            height: 30px;
+            margin: 9px 0px;
+           
+        }
+         
+         .form-login .itens-login button{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            background-color: #222;
+            color: #fff;
+            padding: 0.5em 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            transition: 0.5s;
+            cursor: pointer;
+            border: none;  
+        } 
+    
+        .form-login .itens-login button:hover {
+            color: #fb3;    
+        } 
+    
+    .forgot-password {
     text-decoration: none;
-    transition: 0.5s;
-    cursor: pointer;
-    border: none; 
-                
-            
-    }
+    color: #222;
+     }
+   
 
-    .login button:hover {
-        color: #fb3;
-    }
-
-    .login button {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    background-color: #222;
-    color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    transition: 0.5s;
-    cursor: pointer;
-    border: none; 
-        
-    }
-
-        
-    .auto-login button:hover {
-            color: #fb3;
-    }
-
-  
+    .forgot-password:hover {
+        color: #fb3;   
+        background-color: #222; 
+    } 

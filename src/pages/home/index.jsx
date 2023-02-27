@@ -79,15 +79,6 @@ export default function Home () {
               <FeaturedPost />
 
               
-
-        {/*       {
-            posts && posts.length > 0 && <FeaturedPost post={ posts[0]}  />
-        }  */}
-        
-         {/* <div>
-            <h1>Anúncios</h1>
-        </div> */}
-            {/* <Message msg="Alguma mensagem"/> */}
          
         
          <Container customClass="start" >

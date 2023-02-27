@@ -13,9 +13,9 @@
     justify-content: space-between;
     background-color: #504c4c;
     padding: 1em;
-    
-    
 }
+
+
 
 .list {
     display: flex;
@@ -40,60 +40,49 @@
 
 @media only screen and (max-width: 850px){
     .navbar .item {
-        font-size: 12px;
+        font-size: .8rem;
 
     }
 }
 @media only screen and (max-width: 630px){
     .navbar .item {
-        font-size: 8px;
+        font-size: .7rem;
+
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .navbar .item {
+        font-size: .4rem;
+
+    }
+}
+
+@media only screen and (max-width: 260px){
+    .navbar .item {
+        font-size: .3rem;
+        
 
     }
 }
 
 @media only screen and (max-width: 850px){
     .navbar .logo {
-        font-size: 12px;
+        font-size: .8rem;
 
     }
 }
 
 @media only screen and (max-width: 630px){
     .navbar .logo {
-        font-size: 8px;
+        font-size: .7rem;
 
     }
 }
 
+@media only screen and (max-width: 420px){
+    .navbar .logo {
+        font-size: .4rem;
 
-/* 
-@media (min-width: 576px) {
-.navbar {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;  
-    background-color: rgb(220, 199, 240);
-    height: 8em;
-    margin-bottom: 10%;  
+    }
 }
-
-}
-
-@media (min-width: 576px) {
-.navbar a {
-    margin: 0px 10px;
-    color: rgb(44, 43, 43);
-   justify-content: space-between; 
-} }   
-
-
-@media (min-width: 576px) {
-.logo {
-        text-decoration: none;
-        font-size: 1.8rem;
-        color: #111;
-        
-
-        } 
-}
- */
