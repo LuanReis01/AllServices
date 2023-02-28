@@ -10,21 +10,3 @@
        flex-wrap: wrap;
       
     }}
-/* @media (min-width: 768px) {
-    .prost-list-container {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }}
-@media (min-width: 992px) {
-    .prost-list-container {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }}
- @media (min-width: 1200px) {
-    .prost-list-container {
-         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap; 
-    }}  */

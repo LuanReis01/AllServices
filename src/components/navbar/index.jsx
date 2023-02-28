@@ -8,10 +8,8 @@ import "./styles.css";
 export default function Navbar () {
    return (
        <nav className="navbar">
-        <div>
-         <NavLink className="logo" to= "/">
-        <h3>All Services</h3>
-        </NavLink>
+        <div className="logo">
+         <h3>All Services</h3>
         </div>
          
          

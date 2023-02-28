@@ -13,7 +13,8 @@ export default function SearchBox () {
       </label>
       <div className="Busca">
         <input type="text" className="txtBusca" placeholder="O que procuras?" />
-        <button className="btn-search" type="submit"> Pesquisar </button>
+        <button  className="btn-search"> Pesquisar </button>
+        
       </div>
     </form>
   

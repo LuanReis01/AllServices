@@ -13,12 +13,6 @@ export default function AuthorBadge () {
             <p>Tel.: 923456345</p>
             
         </div>
- 
-{/*         <NavLink to="#">
-        <form>
-  <button className="btn-send-message" type="submit">Enviar Mensagem</button>
-</form>
-</NavLink>  */}
 
      </div>
     );
