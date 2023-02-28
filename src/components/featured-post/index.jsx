@@ -35,7 +35,7 @@ export default function FeaturedPost ( { post }) {
       <div>
       <h2 className="featured-post-title"> Luís Pedro Carpinteiro </h2>
 
-       <p className="featured-post-description">Aplicação de chão flutuante e vinílico. Somos uma equipa com anos de experiência de aplicação de chão. Procura realmente profissionais na área? Faça o seu orçamento grátis sem compromisso. </p>
+       <p className="featured-post-description">Aplicação de chão flutuante e vinílico. Somos uma equipa com anos de experiência de aplicação de chão. Procura realmente profissionais na área? Orçamento grátis. </p>
       
        <p className="featured-post-category">Carpinteiro</p>
      

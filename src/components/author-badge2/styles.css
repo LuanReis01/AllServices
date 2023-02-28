@@ -39,19 +39,7 @@
 }} 
 
 
-@media only screen and (max-width: 1050px){
-    .badge-details{
-    font-size: 10px;
-     
-    }
-}
 
-@media only screen and (max-width: 480px){
-    .badge-details{
-    font-size: 7px;
-     
-    }
-} 
 
 .btn-send-message {
     background-color: #222;

@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 465px){
     .featured-post-title {
-        font-size: .5rem;
+        font-size: .6rem;
 
     }
 }  
@@ -87,7 +87,7 @@
 @media only screen and (max-width: 630px){
     .featured-post-description {
         margin-top: 4px;
-        font-size: .5rem;
+        font-size: .7rem;
 
     }
 }

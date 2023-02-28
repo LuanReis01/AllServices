@@ -107,19 +107,13 @@
 
 @media only screen and (max-width: 360px){
     .navbar .item {
-        font-size: .5rem;
+        font-size: .6rem;
         
 
     }
 }
 
-@media only screen and (max-width: 290px){
-    .navbar .item {
-        font-size: .4rem;
-        
 
-    }
-}
 
 
 

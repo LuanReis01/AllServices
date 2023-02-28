@@ -33,7 +33,7 @@
 
   @media only screen and (max-width: 420px){
     .search-box input{
-      font-size: .4rem;
+      font-size: .5rem;
     }
   }
 
@@ -61,7 +61,7 @@
 
     @media only screen and (max-width: 420px){
       .btn-search{
-        font-size: .4rem;
+        font-size: .5rem;
       }
     }
 
